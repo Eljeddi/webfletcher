@@ -28,8 +28,9 @@ body{
     margin-bottom: 150px;
 }
 #servicesInro{
-    margin-top: 150px;
-    margin-bottom: 150px
+    padding-top: 150px;
+    margin-bottom: 150px;
+    background-color: white;
 }
 .subtitle{
     font-family: 'Roboto',sans-serif;
@@ -43,28 +44,29 @@ body{
 }
 #servicesInro{
     position: relative;
+    margin-bottom: 150px
 }
 #pricingIntro{
     width: 100%;
     padding: 100px 10px;
-    background-image: url(img/rect.png);
+    background-color: #007bff;
     color: white;
-    margin-bottom: 150px;
+
     font-family: 'Open Sans',sans-serif;
     background-size: cover;
     
 }
+
 .ctabutton{
     font-family:'Open Sans'; 
     background-color: transparent;
     font-weight: 300;
-    color: black;
+    color: #007bff;
     font-size:2rem;
-    border:  1px #3B5FFD solid  ;
+    border:  2px #007bff solid  ;
     padding: 10px 80px;
-    border-radius: 0;
-    border-right: none;
-    border-left: none
+    /*border-radius: 50px;*/
+
 
 }
 .whitebutton{
@@ -77,21 +79,122 @@ body{
     }
 
 .whitebutton:hover{
-    color: #9564FD;
+    color: #007bff;
     background-color: white;
 }
 .counter{
-    font-family: 'Oswald',sans-serif;
-    font-size: 24px;
-    //background-color: #3B5FFD;
-    background-color: black;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: transparent;
     height: 200px;
     width: 200px;
     padding-top: 20%;
     color: white;
-    font-weight: 800;
-    border-radius: 50%;
 }
+.num{
+    font-family: 'Oswald',sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
 #portfolioIntro{
+    color: white;
     margin-bottom: 150px;
+    background-image: url(img/numbercover.png);
+    background-size: cover;
+    padding: 70px 0px;
+}
+#portfolioIntro .col-sm-4:hover{
+    background-color: #007bff;
+}
+#aboutIntro{
+    margin-bottom: 200px
+}
+
+.kmb{
+    background-color: transparent;
+    color: #007bff;
+    
+}
+#testimonials{
+    margin-bottom: 200px;
+}
+.testicol{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.clientimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+.clientimg:hover{
+    transition: 0.5s;
+    transform: scale(0.95)
+}
+.fas.fa-quote-right{
+    margin-right: 10px;
+}
+.testimonial-hr{
+    
+}
+
+
+
+
+
+
+
+/*fooooooter*/
+.footer-bs {
+    background-color: #3c3d41;
+	padding: 60px 40px;
+	color: rgba(255,255,255,1.00);
+	
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
